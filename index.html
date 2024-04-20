@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cairo:wght@200;300;400;500;600;700&family=Merriweather:wght@300&family=Nabla&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ice Cream 🍦</title>
+    <style>
+      body {
+        background: #b9dcd0;
+      }
+      h1 {
+        text-align: center;
+        font-family: Amatic SC;
+        font-size: 80px;
+        margin: 0 auto;
+      }
+      h2 {
+        text-align: center;
+        font-family: Futura;
+        font-weight: 100;
+      }
+
+      .intro-section {
+        background: rgba(255, 255, 255, 0.7);
+        margin: 40px 40px;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .ice1,
+      .ice2,
+      .ice3,
+      .ice4 {
+        max-width: 100%;
+      }
+
+      .intro-image {
+        border-radius: 15px;
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        transition: all 150ms ease-in-out;
+        padding: 0 10px;
+      }
+
+      .intro-image:hover {
+        transform: scale(1.03);
+      }
+
+      p {
+        padding-bottom: 20px;
+        list-style-type: none;
+        line-height: 25px;
+        font-family: Roboto;
+        font-weight: 300;
+      }
+
+      .lower-paragraph {
+        margin-top: 40px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 30px auto;
+        background: #f9eee9;
+        padding: 30px;
+        border-radius: 10px;
+      }
+
+      button {
+        display: block;
+        margin: 0px auto;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 1px solid #b9dcd0;
+        font-family: Futura;
+      }
+
+      button:hover {
+        background: #b9dcd0;
+        cursor: pointer;
+      }
+
+      .theme-button:hover {
+        background: white;
+        cursor: pointer;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 12px;
+        color: black;
+        opacity: 0.8px;
+        font-family: Futura;
+
+        margin: 40px 0 0 0;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+      }
+
+      .grid img {
+        width: 100%;
+        border-radius: 100px;
+      }
+
+      .grid img:hover {
+        transform: scale(1.05);
+      }
+
+      a {
+        text-decoration: none;
+        color: #56d59c;
+      }
+
+      .dark {
+        background-color: #001;
+        background-image: radial-gradient(white 15%, transparent 16%),
+          radial-gradient(white 15%, transparent 16%);
+        background-size: 60px 60px;
+        background-position: 0 0, 30px 30px;
+      }
+
+      .dark .container {
+        background: orange;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button class="theme-button">Change Theme</button>
+    <div class="container">
+      <div class="intro-section">
+        <h1>Ice Cream</h1>
+        <h2>How much do you know?</h2>
+      </div>
+
+      <p>
+        Legend has all sorts of fanciful stories about Marco Polo bringing ice
+        cream from China and Catherine de’ Medici introducing it to France and
+        King Charles I having his own personal ice cream maker; all wonderful
+        stories, but sadly there is not a scrap of historic evidence to back up
+        any of them.
+      </p>
+
+      <div class="grid">
+        <a
+          href="https://www.alattefood.com/homemade-strawberry-ice-cream/"
+          target="_blank"
+        >
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/543/original/img2.jpeg?1698829676"
+            class="ice1"
+        /></a>
+        <a
+          href="https://www.chewoutloud.com/mint-chocolate-chip-ice-cream/"
+          target="_blank"
+          ><img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/544/original/img3.jpeg?1698829684"
+            class="ice2"
+        /></a>
+        <a
+          href="https://www.yourhomebasedmom.com/chocolate-chip-ice-cream/"
+          target="_blank"
+          ><img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/545/original/img4.jpeg?1698829692"
+            class="ice3"
+        /></a>
+        <a
+          href="https://www.allrecipes.com/raspberry-ice-cream-recipe-7487374"
+          target="_blank"
+          ><img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/546/original/img5.jpeg?1698829700"
+            class="ice4"
+        /></a>
+      </div>
+      <p class="lower-paragraph">
+        Marco Polo didn’t introduce either ice cream or pasta to Europe and
+        worse still, he probably never even went to China. Most of these myths
+        seem to have been introduced by the Victorians. The earliest evidence of
+        anything approaching ice cream being made was in China in the Tang
+        period (A.D. 618-907). Buffalo, cows’ and goats’ milk was heated and
+        allowed to ferment. This ‘yoghurt’ was then mixed with flour for
+        thickening, camphor (yes camphor!) for flavour and ‘refrigerated’ before
+        being served. King Tang of Shang had a staff of 2,271 people, which
+        included 94 ice-men. Read more about it
+        <a
+          href="https://ice-cream.org/about-the-ice-cream-alliance/history-of-ice-cream/#:~:text=Marco%20Polo%20didn't%20introduce,618%2D907)."
+          target="_blank"
+          >here.</a
+        >
+      </p>
+      <a
+        href="https://www.benjerry.com/whats-new/2017/09/ice-cream-useless-facts"
+        target="_blank"
+      >
+        <button>15 Completely Useless Facts about Ice Cream</button></a
+      >
+      <footer>
+        Coded with 🩷 by <a href="" target="_blank">Rosemary Hogarth</a>
+      </footer>
+    </div>
+
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        // body.classList.toggle("dark"))
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
